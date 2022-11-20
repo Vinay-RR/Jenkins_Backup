@@ -1,0 +1,22 @@
+Started by user [8mha:////4GCtS6CuD7c41Lbacj1Bc0Xasc/ZdHuEk3EqKWE9wQTTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9nMzszJIMAKRV2sfBAAAA[0mVinay R
+Running as SYSTEM
+Building remotely on [8mha:////4AYGvgbfrEeLEtZVREbDX4ABseWoWPg69s++x3hFx/4YAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQifS+gYfEhqcUlAB8e9lzIAAAA[0mJava_Test in workspace /home/ubuntu/workspace/Java_Project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Vinay-RR/Test-java-project.git
+ > git init /home/ubuntu/workspace/Java_Project # timeout=10
+Fetching upstream changes from https://github.com/Vinay-RR/Test-java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Vinay-RR/Test-java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Vinay-RR/Test-java-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99942b2fba09ea18ad72a6b8a8e3d4f70662de7c (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99942b2fba09ea18ad72a6b8a8e3d4f70662de7c # timeout=10
+Commit message: "Create test"
+ > git rev-list --no-walk 99942b2fba09ea18ad72a6b8a8e3d4f70662de7c # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,22 @@
+Started by user [8mha:////4GCtS6CuD7c41Lbacj1Bc0Xasc/ZdHuEk3EqKWE9wQTTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9nMzszJIMAKRV2sfBAAAA[0mVinay R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C_Project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Vinay-RR/Test_C_Project.git
+ > git init /var/lib/jenkins/workspace/C_Project # timeout=10
+Fetching upstream changes from https://github.com/Vinay-RR/Test_C_Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Vinay-RR/Test_C_Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Vinay-RR/Test_C_Project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 46fd498bbae99c642de4693b966ead9825a913d9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 46fd498bbae99c642de4693b966ead9825a913d9 # timeout=10
+Commit message: "mod big3.c"
+First time build. Skipping changelog.
+Finished: SUCCESS

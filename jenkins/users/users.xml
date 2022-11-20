@@ -1,0 +1,10 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>likith</string>
+      <string>likith_5206488271368338561</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>
