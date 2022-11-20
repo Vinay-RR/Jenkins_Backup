@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ivy' version='2.4'><l:dependency name='Ivy Plugin' groupId='org.jenkins-ci.plugins' artifactId='ivy' version='2.4' url='https://github.com/jenkinsci/ivy-plugin'><l:description>This plugin adds Ivy support to Jenkins</l:description><l:license name='The MIT license' url='https://opensource.org/licenses/MIT'/><l:license name='Apache 2' url='https://www.apache.org/licenses/LICENSE-2.0'/></l:dependency><l:dependency name='cloning' groupId='uk.com.robust-it' artifactId='cloning' version='1.9.12' url='https://code.google.com/p/cloning/'><l:description>The cloning library is a small, open source (Apache
+                licensed) Java library which deep-clones objects. The
+                objects do not have to implement the Cloneable
+                interface. Effectively, this library can clone ANY
+                Java object. It can be used i.e. in cache
+                implementations, if you don't want the cached object
+                to be modified or whenever you want to create a deep
+                copy of an object.</l:description><l:license name='Apache License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0'/></l:dependency><l:dependency name='Apache Commons VFS' groupId='org.apache.commons' artifactId='commons-vfs2' version='2.9.0' url='http://commons.apache.org/proper/commons-vfs/'><l:description>Apache Commons VFS is a Virtual File System library.</l:description><l:license name='Apache License, Version 2.0' url='https://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency><l:dependency name='JSch' groupId='com.jcraft' artifactId='jsch' version='0.1.55' url='http://www.jcraft.com/jsch/'><l:description>JSch is a pure Java implementation of SSH2</l:description><l:license name='Revised BSD' url='http://www.jcraft.com/jsch/LICENSE.txt'/></l:dependency><l:dependency name='JSON in Java' groupId='org.json' artifactId='json' version='20220320' url='https://github.com/douglascrockford/JSON-java'><l:description>JSON is a light-weight, language independent, data interchange format.
+        See http://www.JSON.org/
+
+        The files in this package implement JSON encoders/decoders in Java.
+        It also includes the capability to convert between JSON and XML, HTTP
+        headers, Cookies, and CDL.
+
+        This is a reference implementation. There is a large number of JSON packages
+        in Java. Perhaps someday the Java community will standardize on one. Until
+        then, choose carefully.
+
+        The license includes this restriction: "The software shall be used for good,
+        not evil." If your conscience cannot live with that, then choose a different
+        package.</l:description><l:license name='The JSON License' url='http://json.org/license.html'/></l:dependency><l:dependency name='Apache Ivy' groupId='org.apache.ivy' artifactId='ivy' version='2.5.1' url='http://ant.apache.org/ivy/'><l:description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</l:description><l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency><l:dependency name='Objenesis' groupId='org.objenesis' artifactId='objenesis' version='3.0.1' url='http://objenesis.org'><l:description>A library for instantiating Java objects</l:description><l:license name='Apache 2' url='http://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency><l:dependency name='SnakeYAML' groupId='org.yaml' artifactId='snakeyaml' version='1.30' url='https://bitbucket.org/snakeyaml/snakeyaml'><l:description>YAML 1.1 parser and emitter for Java</l:description><l:license name='Apache License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency><l:dependency name='Caffeine API Plugin' groupId='io.jenkins.plugins' artifactId='caffeine-api' version='2.9.3-65.v6a_47d0f4d1fe' url='https://github.com/jenkinsci/caffeine-api-plugin'><l:description>Jenkins plugin that packages Caffeine for use by other plugins.</l:description><l:license name='Apache License v2' url='https://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency><l:dependency name='SnakeYAML API Plugin' groupId='io.jenkins.plugins' artifactId='snakeyaml-api' version='1.30.2-76.vc104f7ce9870' url='https://github.com/jenkinsci/snakeyaml-api-plugin'><l:description>This plugin packages stock SnakeYAML library</l:description><l:license name='The MIT License (MIT)' url='https://opensource.org/licenses/MIT'/></l:dependency><l:dependency name='Caffeine cache' groupId='com.github.ben-manes.caffeine' artifactId='caffeine' version='2.9.3' url='https://github.com/ben-manes/caffeine'><l:description>A high performance caching library</l:description><l:license name='Apache License, Version 2.0' url='https://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency></l:dependencies>

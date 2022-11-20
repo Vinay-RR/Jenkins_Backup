@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.319.3
+Plugin-Dependencies: commons-lang3-api:3.12.0-36.vd97de6465d5b_,ant:48
+ 1.v7b_09e538fcca,apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9
+ a_7b_a_e61,config-file-provider:3.10.0,junit:1.54.3,nant:1.4.3;resolu
+ tion:=optional
+Plugin-License-Url-2: https://www.apache.org/licenses/LICENSE-2.0
+Implementation-Title: Ivy Plugin
+Long-Name: Ivy Plugin
+Implementation-Version: 2.4
+Group-Id: org.jenkins-ci.plugins
+Plugin-License-Name: The MIT license
+Specification-Title: Ivy Plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/ivy-plugin
+Plugin-Version: 2.4
+Jenkins-Version: 2.319.3
+Url: https://github.com/jenkinsci/ivy-plugin
+Short-Name: ivy
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-License-Name-2: Apache 2
+Plugin-Developers: :hibou:,Martin Ficker:martinficker:,:jmetcalf:,Timo
+ thy Bingaman:tbingaman:,Gregory Boissinot:gboissinot:,Kevin Formsma:a
+ rothian:
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.6.0
+Specification-Version: 2.4
+

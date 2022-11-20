@@ -1,31 +1,8 @@
-ERROR: Launching agent process aborted.
-Also:   java.lang.Throwable: launched here
-	at hudson.slaves.SlaveComputer._connect(SlaveComputer.java:287)
-	at hudson.model.Computer.connect(Computer.java:445)
-	at hudson.slaves.SlaveComputer.tryReconnect(SlaveComputer.java:837)
-	at hudson.slaves.RetentionStrategy$Always.check(RetentionStrategy.java:173)
-	at hudson.slaves.RetentionStrategy$Always.check(RetentionStrategy.java:161)
-	at hudson.slaves.ComputerRetentionWork$1.run(ComputerRetentionWork.java:71)
-	at hudson.model.Queue._withLock(Queue.java:1396)
-	at hudson.model.Queue.withLock(Queue.java:1270)
-	at hudson.slaves.ComputerRetentionWork.doRun(ComputerRetentionWork.java:62)
-	at hudson.triggers.SafeTimerTask.run(SafeTimerTask.java:94)
-	at jenkins.security.ImpersonatingScheduledExecutorService$1.run(ImpersonatingScheduledExecutorService.java:69)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-java.lang.InterruptedException: Validate configuration:
-The selected credentials cannot be found
-
-	at hudson.plugins.sshslaves.SSHLauncher.checkConfig(SSHLauncher.java:920)
-	at hudson.plugins.sshslaves.SSHLauncher.launch(SSHLauncher.java:412)
-	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
-	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:48)
-	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:82)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+SSHLauncher{host='172.31.16.97', port=22, credentialsId='Divyaid', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[11/20/22 06:01:00] [SSH] Opening SSH connection to 172.31.16.97:22.
+[11/20/22 06:01:00] [SSH] The SSH key with fingerprint c4:f4:b3:12:88:79:db:b7:6e:62:3c:eb:94:3d:9d:ba has been automatically trusted for connections to this machine.
+ERROR: Server rejected the 1 private key(s) for ubuntu (credentialId:Divyaid/method:publickey)
+[11/20/22 06:01:00] [SSH] Authentication failed.
+Authentication failed.
+[11/20/22 06:01:00] Launch failed - cleaning up connection
+[11/20/22 06:01:00] [SSH] Connection closed.

@@ -1,0 +1,20 @@
+Started by user [8mha:////4GCtS6CuD7c41Lbacj1Bc0Xasc/ZdHuEk3EqKWE9wQTTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9nMzszJIMAKRV2sfBAAAA[0mVinay R
+Running as SYSTEM
+Building remotely on [8mha:////4AYGvgbfrEeLEtZVREbDX4ABseWoWPg69s++x3hFx/4YAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQifS+gYfEhqcUlAB8e9lzIAAAA[0mJava_Test in workspace /home/ubuntu/workspace/Private
+The recommended git tool is: NONE
+using credential Privateid
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/Private/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Vinay-RR/Vinay_private.git # timeout=10
+Fetching upstream changes from https://github.com/Vinay-RR/Vinay_private.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials Privateid
+ > git fetch --tags --force --progress -- https://github.com/Vinay-RR/Vinay_private.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2de50ef1382bce23cdaf977f5094f121e44824c7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2de50ef1382bce23cdaf977f5094f121e44824c7 # timeout=10
+Commit message: "Merge pull request #1 from manojrobotics935/main"
+First time build. Skipping changelog.
+Finished: SUCCESS
